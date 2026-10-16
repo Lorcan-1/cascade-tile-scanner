@@ -2,6 +2,7 @@ import os
 import time
 
 TileNames = {
+    73: "glacial labaratory",
     78: "Laboratory",
     87: "Hall of legends",
     105: "Brig",
@@ -31,6 +32,7 @@ ExoCount = {
     "Cargo bay": 3,
     "Hangar": 5,
     "Schoolyard": 4,
+    "glacial labaratory": 3
 }
 
 eelog = os.path.join(
@@ -57,7 +59,7 @@ with open(eelog, "r", encoding="utf-8", errors="ignore") as f:
             and MissingRoomDeadline is not None#the missing room deadline is ai i was losing my mind trying to find the new room id
             and time.time() >= MissingRoomDeadline
         ):
-            TileName = "glacial labaratory"
+            TileName = "new room"
             TileValue = 3
             Color = "\033[91m"
             Reset = "\033[0m"
