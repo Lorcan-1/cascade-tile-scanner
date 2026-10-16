@@ -2,7 +2,7 @@ import os
 import time
 
 TileNames = {
-    73: "glacial labaratory",
+    73: "Glacial laboratory",
     78: "Laboratory",
     87: "Hall of legends",
     105: "Brig",
@@ -32,7 +32,7 @@ ExoCount = {
     "Cargo bay": 3,
     "Hangar": 5,
     "Schoolyard": 4,
-    "glacial labaratory": 3
+    "Glacial laboratory": 3,
 }
 
 eelog = os.path.join(
@@ -119,3 +119,5 @@ with open(eelog, "r", encoding="utf-8", errors="ignore") as f:
 
             except (IndexError, ValueError):
                 pass
+
+#by fortnite 
