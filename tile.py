@@ -23,7 +23,7 @@ ExoCount = {
     "Hall of legends": 3,
     "Brig": 3,
     "Agri-zone": 3,
-    "Serenity": 3,
+    "Serenity": 4,
     "Habitat": 3,
     "Lunaro": 3,
     "Angel roost": 4,
