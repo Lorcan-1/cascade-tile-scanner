@@ -110,7 +110,10 @@ with open(eelog, "r", encoding="utf-8", errors="ignore") as f:
                     MissingRoomDeadline = time.time() + 5
 
                 if TileCount == 3:
-                    print(f"Total exos: {Totalvalue}")
+                    if Totalvalue > 11:
+                        print(f"\033[38;5;220mTotal exos: {Totalvalue}\033[0m")
+                    elif Totalvalue < 12:
+                        print(f"Total exos: {Totalvalue}")
                     print("-" * 30)
 
                     Totalvalue = 0
